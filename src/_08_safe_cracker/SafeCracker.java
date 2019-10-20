@@ -14,6 +14,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
+import javax.swing.text.StyledEditorKit.ForegroundAction;
 
 public class SafeCracker {
 
@@ -22,8 +23,17 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-		
+		tryCode(999997);
 
+	
+	
+	for (int i = 0; i < 9999999; i++) {
+		tryCode(i);
+	}
+	
+	
+	
+	
 	}
 
 	static void tryCode(int guess) {
