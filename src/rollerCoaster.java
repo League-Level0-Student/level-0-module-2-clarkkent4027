@@ -8,8 +8,12 @@ public class rollerCoaster {
 	
 int i = Integer.parseInt(quantity);
 
-if(quantity )
+if(i < 48) {
+JOptionPane.showMessageDialog(null, "sorry, u too short");
+	}else {
+		JOptionPane.showMessageDialog(null, "you cool kid");
+	
 
-
+}
 }
 }
