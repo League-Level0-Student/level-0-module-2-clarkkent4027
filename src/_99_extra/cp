@@ -1,0 +1,34 @@
+Random number = new Random();
+int num = number.nextInt(1000)
+
+
+Random number = new Random();
+ int num2 = number.nextInt(900)
+
+
+String answer = JOptionPane.showInputDialog("How many cups of flour do you have?");
+int x = Integer.parseInt(answer);
+if(x < 2)
+JOptionPane.showMessageDialog("Quickly go to Costco and buy some more!");
+
+
+String cookie = JOptionPane.showInputDialog("How many people are you giving cookies to?");
+int x = Integer.parseInt(cookie);
+if(x > 30)
+JOptionPane.showMessageDialog("You must make 2 batches of cookies!");
+
+
+String people = JOptionPane.showInputDialog("How many batches of cookies did you make?");
+int x = Integer.parseInt(people);
+if(x == 2)
+JOptionPane.showMessageDialog("You are lucky to have so many friends!");
+
+ 
+printMessage();
+ 
+ 
+setName("Arthur");
+
+ 
+int x = getNumber();
+ 

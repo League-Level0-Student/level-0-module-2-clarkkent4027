@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	int i = Integer.parseInt(quantity);
 
 	if(i < 19) {
-	JOptionPane.showMessageDialog(null, "noone cares about you");
+	JOptionPane.showMessageDialog(null, "no one cares about you");
 		}else {
 			JOptionPane.showMessageDialog(null, "who should replace trump");
 		

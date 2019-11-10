@@ -24,7 +24,7 @@ String count = JOptionPane.showInputDialog("When should I start counting from?")
 for (int i = num; i > 0; i--) {
 speak(i + "");  }
 
-	}
+	
 			// 4. Use the speak method to hear the countdown.
 
 
@@ -32,8 +32,10 @@ speak(i + "");  }
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
 	
 		// 5. when the counting is done, speak "blastoff!"
-	if(i = -1); 
-	JOptionPane.showMessageDialog("bolstaff");
+
+	
+speak("blastoff");
+JOptionPane.showMessageDialog(null, "bolstaff"); }
 
 static void speak(String words) {
    	 try {
